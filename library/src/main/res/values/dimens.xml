@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="customtooltip_overlay_circle_offset">10dp</dimen>
+    <dimen name="customtooltip_margin">10dp</dimen>
+    <dimen name="customtooltip_padding">8dp</dimen>
+    <dimen name="customtooltip_arrow_width">30dp</dimen>
+    <dimen name="customtooltip_arrow_height">15dp</dimen>
+    <dimen name="customtooltip_animation_padding">4dp</dimen>
+</resources>
