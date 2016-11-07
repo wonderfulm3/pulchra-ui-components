@@ -31,7 +31,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         .anchorView(view)
                         .text("Popover content goes here. Views, etc")
                         .gravity(Gravity.END)
-                        .animated(true)
+                        .animated(false)
+                        .contentView(R.layout.tooltip_custom)
+                        .dismissOnInsideTouch(false)
+                        .dismissOnOutsideTouch(true)
                         .build()
                         .show();
                 break;
